@@ -12,7 +12,7 @@ class Evaluation:
         preds = []
         
         for row in self.dataset:
-            image = self.dataset.load_image(row["image_path"])
+            # image = self.dataset.load_image(row["image_path"])
             gt_bboxes = row["bboxes"]
             gt_boxes = tensor([
                 [b["x"], b["y"], b["x"] + b["width"], b["y"] + b["height"]]
