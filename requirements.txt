@@ -1,3 +1,5 @@
 datasets
 Pillow
 scikit-learn
+torch
+torchmetrics
